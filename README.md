@@ -1,25 +1,41 @@
-# rna-seq-variant-portfolio
-RNA-seq and variant calling analysis of ciprofloxacin-induced stress response in E. coli
-
-# RNA-seq and Variant Calling Analysis
+# Human RNA-seq Analysis of LPS-Stimulated Immune Cells
 
 ## Project Overview
-This project analyzes transcriptomic changes and genetic variants induced by ciprofloxacin treatment in E. coli.
+This project analyzes human RNA-seq data to identify transcriptional changes after LPS stimulation in immune cells.
 
-## Objectives
+## Objective
 - Perform RNA-seq quality control
-- Align reads to reference genome
-- Identify differentially expressed genes
-- Perform variant calling
-- Interpret biological significance
+- Trim raw reads
+- Align reads to the human reference genome (GRCh38)
+- Generate gene count matrix
+- Perform differential expression analysis
+- Explore RNA-seq-based variant calling
+
+## Dataset
+- Organism: Human
+- Condition: Control vs LPS-treated
+- Replicates: 3 vs 3
+- Layout: Paired-end RNA-seq
+
+## Pipeline
+FastQC → Trim Galore → STAR → featureCounts → DESeq2 → GATK
 
 ## Tools
 - FastQC
-- Bowtie2
-- Samtools
+- MultiQC
+- Trim Galore
+- STAR
+- samtools
 - featureCounts
 - DESeq2
-- FreeBayes
+- GATK
 
 ## Status
-Project setup in progress.
+- [x] FASTQ preparation
+- [x] FastQC
+- [x] MultiQC (optional)
+- [ ] Trimming
+- [ ] Alignment
+- [ ] Counting
+- [ ] DE analysis
+- [ ] Variant calling

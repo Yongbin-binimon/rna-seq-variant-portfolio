@@ -1,0 +1,21 @@
+# raw and intermediate sequencing files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.sam
+*.bam
+*.bai
+
+# large indexes
+human_lps/data/reference/hisat2_index/
+human_lps/data/reference/star_index/
+
+# temporary files
+_STARtmp/
+*__STARtmp/
+*.tmp
+
+# logs can be large; keep only selected summaries if needed
+*.log

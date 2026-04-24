@@ -1,0 +1,15 @@
+Status	/home/yongbin/projects/rna-seq-variant-portfolio/human_lps/results/bam/SRR11994201.sorted.bam
+Assigned	35282389
+Unassigned_Unmapped	1056197
+Unassigned_Read_Type	0
+Unassigned_Singleton	0
+Unassigned_MappingQuality	0
+Unassigned_Chimera	0
+Unassigned_FragmentLength	0
+Unassigned_Duplicate	0
+Unassigned_MultiMapping	3371584
+Unassigned_Secondary	0
+Unassigned_NonSplit	0
+Unassigned_NoFeatures	4712601
+Unassigned_Overlapping_Length	0
+Unassigned_Ambiguity	4472272
